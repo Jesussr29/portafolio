@@ -239,7 +239,7 @@ function App() {
 
                       <div className="proyect-content-code">
                         <div className="code1" style={{backgroundColor: '#1a1a1a'}}>
-                          <p><img src="/img/angular.ico" alt="Logo de Angular"></img>Angular</p>
+                          <p><img src="../img/angular.ico" alt="Logo de Angular"></img>Angular</p>
                         </div>
                         <div className="code1" style={{backgroundColor: '#1a1a1a', color: '#ffffff'}}>
                           <p><i class="fab fa-php" style={{color: '#8892BF', fontSize: '20px', marginTop: '1px'}}></i>PHP</p>
