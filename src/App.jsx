@@ -234,7 +234,7 @@ function App() {
 
                     <div className="proyect-content-conjunto">
                       <div className="proyect-content-text">
-                        <h3>Turno X - Juego interactivo de tres en raya para jugar con un amigo</h3>
+                        <h3>Molares Trading Card Game - Buscador de cartas pokemon</h3>
                       </div>
 
                       <div className="proyect-content-code">
@@ -247,7 +247,7 @@ function App() {
                       </div>
 
                       <div className="proyect-introduction">
-                        <p>Juego de Tres en Raya moderno y minimalista. Más de 5K partidas jugadas. Interfaz limpia y rápida. Desarrollado desde cero con Vite + React</p>
+                        <p>Buscador de cartas pokemon interactivo y visual para ver los precios de las cartas y sus colecciones</p>
                       </div>
 
                       <div className="proyect-buttons">
@@ -255,7 +255,7 @@ function App() {
                           <i class="fab fa-github"></i>
                           Code
                         </a>
-                        <a href="https://tu-demo.com" class="proyect-button">
+                        <a href="mtcg/" class="proyect-button">
                           <i class="fas fa-link"></i>
                           Preview
                         </a>
