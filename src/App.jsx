@@ -229,7 +229,7 @@ function App() {
                   
                   <div className="proyect-content">
                     <picture>
-                      <img src="https://res.cloudinary.com/dbw3utkij/image/upload/v1746687219/TurnoX-fondo2_gxlmoh.png" alt="" />
+                      <img src="https://res.cloudinary.com/dbw3utkij/image/upload/v1741683239/xn9foqjitvdkuemuitih.webp" alt="" />
                     </picture>
 
                     <div className="proyect-content-conjunto">
@@ -239,19 +239,19 @@ function App() {
 
                       <div className="proyect-content-code">
                         <div className="code1" style={{backgroundColor: '#1a1a1a'}}>
-                          <p><img src="https://res.cloudinary.com/dbw3utkij/image/upload/v1746688170/vitejs_gnqupa.svg" alt="Logo de Vite"></img>Vite</p>
+                          <p><img src="/img/angular.ico" alt="Logo de Angular"></img>Angular</p>
                         </div>
                         <div className="code1" style={{backgroundColor: '#1a1a1a', color: '#ffffff'}}>
-                          <p><i class="fab fa-react" style={{color: '#1ba1cc', fontSize: '15px', marginTop: '1px'}}></i>React</p>
+                          <p><i class="fab fa-php" style={{color: '#8892BF', fontSize: '20px', marginTop: '1px'}}></i>PHP</p>
                         </div>
                       </div>
 
                       <div className="proyect-introduction">
-                        <p>Buscador de cartas pokemon interactivo y visual para ver los precios de las cartas y sus colecciones</p>
+                        <p>Aplicación interactiva y visual que actúa como buscador de cartas Pokémon, permitiendo a los usuarios explorar fácilmente cartas individuales y colecciones completas, con acceso en tiempo real a los precios actualizados de cada carta según su edición, rareza y estado.</p>
                       </div>
 
                       <div className="proyect-buttons">
-                        <a href="https://github.com/tu-repo" class="proyect-button">
+                        <a href="https://github.com/Jesussr29/ProyectoAngular.git" class="proyect-button">
                           <i class="fab fa-github"></i>
                           Code
                         </a>

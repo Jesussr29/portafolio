@@ -246,8 +246,8 @@ nav {
 .proyect-content picture{
   background: linear-gradient(to right, #000c1f, #001f3f, #0b1e32, #172c41, #213850, #192f46);
   border-radius: 15px;
-  max-width: 450px;
-  min-width: 380px;
+  max-width: 400px;
+  min-width: 400px;
   max-height: 250px;
   width: 100%;
 }
@@ -255,6 +255,7 @@ nav {
 .proyect-content picture img{
   transition: transform 0.5s;
   width: 100%;
+  max-width: 400px;
 }
 
 .proyect-content picture img:hover{
