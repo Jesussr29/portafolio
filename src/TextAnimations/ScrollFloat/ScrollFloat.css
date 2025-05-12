@@ -1,0 +1,22 @@
+/*
+	Installed from https://reactbits.dev/default/
+*/
+
+.scroll-float {
+  overflow: hidden;
+}
+
+.scroll-float-text {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+  text-align: left;
+  word-break: normal;
+  hyphens: none;
+
+}
+
+.char {
+  display: inline-block;
+}
