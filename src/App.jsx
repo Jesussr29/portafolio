@@ -47,16 +47,17 @@ function App() {
       <header className="header" id="inicio">
 
       <div style={{ width: '100%', height: '100px', position: 'absolute' }}>
-        <Dither
+        {/* <Dither
           waveColor={[0.5, 0.6, 0.7]}
           disableAnimation={false}
           enableMouseInteraction={false}
-          mouseRadius={0.3}
+          mouseRadius={0.1}
           colorNum={70}
-          waveAmplitude={0.3}
-          waveFrequency={5}
+          waveAmplitude={0.2}
+          waveFrequency={3}
           waveSpeed={0.05}
-        />
+        /> */}
+
       </div>
 
       <TrueFocus 
@@ -113,9 +114,9 @@ function App() {
         <div className="main-content">
 
           <div className="main-content__img" data-aos="fade-up">
-            <picture>
+            {/* <picture>
               <img src="../img/TurnoX.png" alt="" />
-            </picture>
+            </picture> */}
 
             <div className="gradient-text">
               <GradientText
@@ -210,11 +211,11 @@ function App() {
                       </div>
 
                       <div className="proyect-buttons">
-                        <a href="https://github.com/tu-repo" class="proyect-button">
+                        <a href="https://github.com/Jesussr29/Turno-X.git" class="proyect-button">
                           <i class="fab fa-github"></i>
                           Code
                         </a>
-                        <a href="https://tu-demo.com" class="proyect-button">
+                        <a href="turno-x/" class="proyect-button">
                           <i class="fas fa-link"></i>
                           Preview
                         </a>
