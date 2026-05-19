@@ -46,8 +46,8 @@ function App() {
     <>
       <header className="header" id="inicio">
 
-      <div style={{ width: '100%', height: '100px', position: 'absolute' }}>
-        {/* <Dither
+        <div style={{ width: '100%', height: '100px', position: 'absolute' }}>
+          {/* <Dither
           waveColor={[0.5, 0.6, 0.7]}
           disableAnimation={false}
           enableMouseInteraction={false}
@@ -58,41 +58,41 @@ function App() {
           waveSpeed={0.05}
         /> */}
 
-      </div>
+        </div>
 
-      <TrueFocus 
-        sentence="Code-by Jesús"
-        manualMode={false}
-        blurAmount={5}
-        borderColor="cyan"
-        animationDuration={2}
-        pauseBetweenAnimations={1}
-      />
-      
+        <TrueFocus
+          sentence="Code-by Jesús"
+          manualMode={false}
+          blurAmount={5}
+          borderColor="cyan"
+          animationDuration={2}
+          pauseBetweenAnimations={1}
+        />
+
       </header>
 
       <div className="nav-container">
 
-      <button className="boton-toggle" onClick={toggleMenu}>
-        <i className="fas fa-bars"></i>
-      </button>
+        <button className="boton-toggle" onClick={toggleMenu}>
+          <i className="fas fa-bars"></i>
+        </button>
 
-      <nav className={`menu-lateral ${menuAbierto ? "abierto" : ""}`}>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav_link" href="#inicio">Inicio</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav_link" href="#sobreMi">Sobre mí</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav_link" href="#proyectos">Mis Proyectos</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav_link" href="#contacto">Contactos</a>
-          </li>
-        </ul>
-      </nav>
+        <nav className={`menu-lateral ${menuAbierto ? "abierto" : ""}`}>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav_link" href="#inicio">Inicio</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav_link" href="#sobreMi">Sobre mí</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav_link" href="#proyectos">Mis Proyectos</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav_link" href="#contacto">Contactos</a>
+            </li>
+          </ul>
+        </nav>
 
       </div>
 
@@ -110,7 +110,7 @@ function App() {
             disableRotation={true}
           />
         </div>
-        
+
         <div className="main-content">
 
           <div className="main-content__img" data-aos="fade-up">
@@ -138,136 +138,244 @@ function App() {
 
           <div class="botones" data-aos="fade-up" id="sobreMi">
 
-            <a href="mailto:ejemplo@correo.com" class="boton">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jesusrinconalbarran17@gmail.com"
+              class="boton"
+              target="_blank"
+              rel="noopener noreferrer">
               <i class="fas fa-envelope"></i>
               Contáctame
             </a>
-            <a href="https://www.linkedin.com/in/tu-perfil" class="boton" target="_blank">
+            <a href="https://www.linkedin.com/in/jes%C3%BAs-rinc%C3%B3n-albarr%C3%A1n/" class="boton" target="_blank">
               <i class="fab fa-linkedin-in"></i>
               LinkedIn
             </a>
-            
+
           </div>
 
           <div className="main-information" data-aos="fade-up">
             <h1><i class="fas fa-user logo-person"></i>Sobre Mí</h1>
             <div className="main-information__text">
 
-            <p>
-              Aquí podrás ver una selección de mis <span className="amarillo">proyectos, habilidades y experiencias</span>, que son el resultado de mi dedicación, aprendizaje constante y pasión por el desarrollo y el diseño. Cada sección no solo refleja lo que sé hacer, sino también cómo pienso, cómo enfrento los desafíos y cómo convierto ideas en soluciones funcionales y atractivas.
-            </p>
-            <p>
-              Te animo a explorar con calma cada sección: desde <span className="amarillo">proyectos personales y colaborativos</span>, hasta las tecnologías que manejo, las metodologías que aplico y los retos que he superado. Mi intención es que veas más allá del código y el diseño: quiero mostrarte el valor que puedo aportar a tus ideas, ya sea como <span className="amarillo">desarrollador, diseñador o miembro de un equipo creativo</span>.
-            </p>
-            <p id="proyectos">
-              ¡Gracias por tomarte el tiempo de visitar mi espacio! Espero que disfrutes el recorrido, y si alguna parte de lo que ves te conecta, estaré encantado de conversar.
-            </p>
-                
+              <p>
+                Aquí podrás ver una selección de mis <span className="amarillo">proyectos, habilidades y experiencias</span>, que son el resultado de mi dedicación, aprendizaje constante y pasión por el desarrollo y el diseño. Cada sección no solo refleja lo que sé hacer, sino también cómo pienso, cómo enfrento los desafíos y cómo convierto ideas en soluciones funcionales y atractivas.
+              </p>
+              <p>
+                Te animo a explorar con calma cada sección: desde <span className="amarillo">proyectos personales y colaborativos</span>, hasta las tecnologías que manejo, las metodologías que aplico y los retos que he superado. Mi intención es que veas más allá del código y el diseño: quiero mostrarte el valor que puedo aportar a tus ideas, ya sea como <span className="amarillo">desarrollador, diseñador o miembro de un equipo creativo</span>.
+              </p>
+              <p id="proyectos">
+                ¡Gracias por tomarte el tiempo de visitar mi espacio! Espero que disfrutes el recorrido, y si alguna parte de lo que ves te conecta, estaré encantado de conversar.
+              </p>
+
             </div>
 
           </div>
 
           <div className="main-proyect" data-aos="fade-up">
-              <h1 style={{color: "white"}} className="rotating-text"><i class="fas fa-code logo-code"></i>Mis 
-                <RotatingText
-                  texts={['desarrollos', 'proyectos', 'aplicaciones', 'creaciones', 'diseños', 'trabajos', 'experiencias', 'habilidades']}
-                  mainClassName="px-2 sm:px-2 md:px-3 bg-cyan-300 text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
-                  staggerFrom={"last"}
-                  initial={{ y: "100%" }}
-                  animate={{ y: 0 }}
-                  exit={{ y: "-120%" }}
-                  staggerDuration={0.025}
-                  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
-                  transition={{ type: "spring", damping: 30, stiffness: 400 }}
-                  rotationInterval={2000}
-                />
-              </h1>
+            <h1 style={{ color: "white" }} className="rotating-text"><i class="fas fa-code logo-code"></i>Mis
+              <RotatingText
+                texts={['desarrollos', 'proyectos', 'aplicaciones', 'creaciones', 'diseños', 'trabajos', 'experiencias', 'habilidades']}
+                mainClassName="px-2 sm:px-2 md:px-3 bg-cyan-300 text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
+                staggerFrom={"last"}
+                initial={{ y: "100%" }}
+                animate={{ y: 0 }}
+                exit={{ y: "-120%" }}
+                staggerDuration={0.025}
+                splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+                transition={{ type: "spring", damping: 30, stiffness: 400 }}
+                rotationInterval={2000}
+              />
+            </h1>
 
-              <div className="my-proyects">
+            <div className="my-proyects">
 
-                <div className="proyects">
-                  
-                  <div className="proyect-content">
-                    <picture>
-                      <img src="https://res.cloudinary.com/dbw3utkij/image/upload/v1746687219/TurnoX-fondo2_gxlmoh.png" alt="" />
-                    </picture>
+              <div className="proyects">
 
-                    <div className="proyect-content-conjunto">
-                      <div className="proyect-content-text">
-                        <h3>Turno X - Juego interactivo de tres en raya para jugar con un amigo</h3>
+                <div className="proyect-content">
+                  <picture>
+                    <img src="https://res.cloudinary.com/dbw3utkij/image/upload/v1746687219/TurnoX-fondo2_gxlmoh.png" alt="" />
+                  </picture>
+
+                  <div className="proyect-content-conjunto">
+                    <div className="proyect-content-text">
+                      <h3>Turno X - Juego interactivo de tres en raya para jugar con un amigo</h3>
+                    </div>
+
+                    <div className="proyect-content-code">
+                      <div className="code1" style={{ backgroundColor: '#1a1a1a' }}>
+                        <p><img src="https://res.cloudinary.com/dbw3utkij/image/upload/v1746688170/vitejs_gnqupa.svg" alt="Logo de Vite"></img>Vite</p>
                       </div>
-
-                      <div className="proyect-content-code">
-                        <div className="code1" style={{backgroundColor: '#1a1a1a'}}>
-                          <p><img src="https://res.cloudinary.com/dbw3utkij/image/upload/v1746688170/vitejs_gnqupa.svg" alt="Logo de Vite"></img>Vite</p>
-                        </div>
-                        <div className="code1" style={{backgroundColor: '#1a1a1a', color: '#ffffff'}}>
-                          <p><i class="fab fa-react" style={{color: '#1ba1cc', fontSize: '15px', marginTop: '1px'}}></i>React</p>
-                        </div>
-                      </div>
-
-                      <div className="proyect-introduction">
-                        <p>Juego de Tres en Raya moderno y minimalista. Más de 5K partidas jugadas. Interfaz limpia y rápida. Desarrollado desde cero con Vite + React</p>
-                      </div>
-
-                      <div className="proyect-buttons">
-                        <a href="https://github.com/Jesussr29/Turno-X.git" class="proyect-button">
-                          <i class="fab fa-github"></i>
-                          Code
-                        </a>
-                        <a href="turno-x/" class="proyect-button">
-                          <i class="fas fa-link"></i>
-                          Preview
-                        </a>
+                      <div className="code1" style={{ backgroundColor: '#1a1a1a', color: '#ffffff' }}>
+                        <p><i class="fab fa-react" style={{ color: '#1ba1cc', fontSize: '15px', marginTop: '1px' }}></i>React</p>
                       </div>
                     </div>
 
-                  </div>
-
-                </div>
-
-                <div className="proyects">
-                  
-                  <div className="proyect-content">
-                    <picture>
-                      <img src="https://res.cloudinary.com/dbw3utkij/image/upload/v1741683239/xn9foqjitvdkuemuitih.webp" alt="" />
-                    </picture>
-
-                    <div className="proyect-content-conjunto">
-                      <div className="proyect-content-text">
-                        <h3>Molares Trading Card Game - Buscador de cartas pokemon</h3>
-                      </div>
-
-                      <div className="proyect-content-code">
-                        <div className="code1" style={{backgroundColor: '#1a1a1a'}}>
-                          <p><img src="./img/angular.ico" alt="Logo de Angular"></img>Angular</p>
-                        </div>
-                        <div className="code1" style={{backgroundColor: '#1a1a1a', color: '#ffffff'}}>
-                          <p><i class="fab fa-php" style={{color: '#8892BF', fontSize: '20px', marginTop: '1px'}}></i>PHP</p>
-                        </div>
-                      </div>
-
-                      <div className="proyect-introduction">
-                        <p>Aplicación interactiva y visual que actúa como buscador de cartas Pokémon, permitiendo a los usuarios explorar fácilmente cartas individuales y colecciones completas, con acceso en tiempo real a los precios actualizados de cada carta según su edición, rareza y estado.</p>
-                      </div>
-
-                      <div className="proyect-buttons">
-                        <a href="https://github.com/Jesussr29/ProyectoAngular.git" class="proyect-button">
-                          <i class="fab fa-github"></i>
-                          Code
-                        </a>
-                        <a href="mtcg/" class="proyect-button">
-                          <i class="fas fa-link"></i>
-                          Preview
-                        </a>
-                      </div>
+                    <div className="proyect-introduction">
+                      <p>Juego de Tres en Raya moderno y minimalista. Más de 5K partidas jugadas. Interfaz limpia y rápida. Desarrollado desde cero con Vite + React</p>
                     </div>
 
+                    <div className="proyect-buttons">
+                      <a href="https://github.com/Jesussr29/Turno-X" class="proyect-button">
+                        <i class="fab fa-github"></i>
+                        Code
+                      </a>
+                      <a href="turno-x/" class="proyect-button">
+                        <i className="fas fa-gamepad"></i>
+                        Jugar Ahora
+                      </a>
+                    </div>
                   </div>
 
                 </div>
 
               </div>
+
+              <div className="proyects">
+                <div className="proyect-content">
+                  <picture>
+                    <img src="./img/juego-youtube.jpg" alt="Recomendados - Juego de YouTube" />
+                  </picture>
+
+                  <div className="proyect-content-conjunto">
+                    <div className="proyect-content-text">
+                      <h3>Recomendados - Del primer clic al objetivo imposible</h3>
+                    </div>
+
+                    <div className="proyect-content-code">
+                      <div className="code1" style={{ backgroundColor: '#1a1a1a' }}>
+                        <p>
+                          <img
+                            src="https://res.cloudinary.com/dbw3utkij/image/upload/v1746688170/vitejs_gnqupa.svg"
+                            alt="Logo de Vite"
+                          />
+                          Vite
+                        </p>
+                      </div>
+                      <div className="code1" style={{ backgroundColor: '#1a1a1a', color: '#ffffff' }}>
+                        <p>
+                          <i className="fab fa-react" style={{ color: '#1ba1cc', fontSize: '15px', marginTop: '1px' }}></i>
+                          React
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="proyect-introduction">
+                      <p>
+                        Juego adictivo donde empiezas con un video y tienes que llegar al video objetivo
+                        navegando únicamente a través de las recomendaciones de YouTube.
+                        ¿Cuántos clics te tomará llegar al objetivo?
+                      </p>
+                    </div>
+
+                    <div className="proyect-buttons">
+                      <a href="https://github.com/Jesussr29/juego-youtube" className="proyect-button">
+                        <i className="fab fa-github"></i>
+                        Code
+                      </a>
+                      <a href="juego-youtube/" className="proyect-button">
+                        <i className="fas fa-gamepad"></i>
+                        Jugar Ahora
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="proyects">
+                <div className="proyect-content">
+                  <picture>
+                    <img src="./img/juntaygana.png" alt="Junta y Gana - Juego 8x8 tipo Tetris" />
+                  </picture>
+
+                  <div className="proyect-content-conjunto">
+                    <div className="proyect-content-text">
+                      <h3>Junta y Gana - Coloca, encaja y domina el tablero</h3>
+                    </div>
+
+                    <div className="proyect-content-code">
+                      <div className="code1" style={{ backgroundColor: '#1a1a1a' }}>
+                        <p>
+                          <img
+                            src="https://res.cloudinary.com/dbw3utkij/image/upload/v1746688170/vitejs_gnqupa.svg"
+                            alt="Logo de Vite"
+                          />
+                          Vite
+                        </p>
+                      </div>
+
+                      <div className="code1" style={{ backgroundColor: '#1a1a1a', color: '#ffffff' }}>
+                        <p>
+                          <i className="fab fa-react" style={{ color: '#1ba1cc', fontSize: '15px', marginTop: '1px' }}></i>
+                          React
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="proyect-introduction">
+                      <p>
+                        “Junta y Gana” es un juego de estrategia donde colocas bloques tipo Tetris
+                        en un tablero 8x8. Completa líneas para sumar puntos, planifica cada movimiento
+                        y evita quedarte sin espacio. Incluye sistema de amigos, ranking y competencia
+                        en tiempo real para ver quién domina el tablero.
+                      </p>
+                    </div>
+
+                    <div className="proyect-buttons">
+                      <a href="https://github.com/Jesussr29/Junta-y-Gana" className="proyect-button">
+                        <i className="fab fa-github"></i>
+                        Code
+                      </a>
+
+                      <a href="junta-y-gana/" className="proyect-button">
+                        <i className="fas fa-gamepad"></i>
+                        Jugar Ahora
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="proyects">
+
+                <div className="proyect-content">
+                  <picture>
+                    <img src="https://res.cloudinary.com/dbw3utkij/image/upload/v1741683239/xn9foqjitvdkuemuitih.webp" alt="" />
+                  </picture>
+
+                  <div className="proyect-content-conjunto">
+                    <div className="proyect-content-text">
+                      <h3>Molares Trading Card Game - Buscador de cartas pokemon</h3>
+                    </div>
+
+                    <div className="proyect-content-code">
+                      <div className="code1" style={{ backgroundColor: '#1a1a1a' }}>
+                        <p><img src="./img/angular.ico" alt="Logo de Angular"></img>Angular</p>
+                      </div>
+                      <div className="code1" style={{ backgroundColor: '#1a1a1a', color: '#ffffff' }}>
+                        <p><i class="fab fa-php" style={{ color: '#8892BF', fontSize: '20px', marginTop: '1px' }}></i>PHP</p>
+                      </div>
+                    </div>
+
+                    <div className="proyect-introduction">
+                      <p>Aplicación interactiva y visual que actúa como buscador de cartas Pokémon, permitiendo a los usuarios explorar fácilmente cartas individuales y colecciones completas, con acceso en tiempo real a los precios actualizados de cada carta según su edición, rareza y estado.</p>
+                    </div>
+
+                    <div className="proyect-buttons">
+                      <a href="https://github.com/Jesussr29/ProyectoAngular.git" class="proyect-button">
+                        <i class="fab fa-github"></i>
+                        Code
+                      </a>
+                      <a href="mtcg/" class="proyect-button">
+                        <i class="fas fa-gamepad"></i>
+                        Jugar Ahora
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
           </div>
 
         </div>
@@ -295,7 +403,7 @@ function App() {
 
     </>
 
-    
+
   );
 }
 
